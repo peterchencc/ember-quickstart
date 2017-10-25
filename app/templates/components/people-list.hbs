@@ -1,1 +1,7 @@
-{{yield}}
+<h2>{{title}} <small>{{sub-title}}</small></h2>
+
+<ul>
+  {{#each people as |person|}}
+    <li>{{person}}</li>
+  {{/each}}
+</ul>
